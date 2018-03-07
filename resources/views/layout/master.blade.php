@@ -2,14 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>@yield('tittle')</title>
+    <title>@yield('title')</title>
   </head>
   <body>
 
 
     <header>
-      <a href="#">Home</a>
-      <a href="/login">login</a>
+      <nav>
+        <a href="#">Home</a>
+        <a href="/login">login</a>
+
+      </nav>
     </header>
     <br>
 

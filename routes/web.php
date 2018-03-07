@@ -20,4 +20,4 @@ Route::get('/', function()
 });
 Route::get('/login','LoginController@index');
 
-Route::get('/login','LoginController@show');
+Route::get('/login/{id}','LoginController@show');
